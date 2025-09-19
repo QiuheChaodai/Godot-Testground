@@ -10,15 +10,6 @@ config_version=5
 
 [application]
 
-config/name="LevelListTest"
-run/main_scene="uid://b3v8llpncfhpe"
+config/name="LCSTest1"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
-
-[autoload]
-
-DevManager="*res://LCS_LevelControlSystem/DevTools/DevManager.gd"
-
-[global_group]
-
-Maps="The maps of the sublevels."

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dji6nfpkn0hfb"]
+
+[ext_resource type="Script" uid="uid://uciyqayv7scx" path="res://LCS_LevelControlSystem/Map/Map.gd" id="1_6us8q"]
+
+[node name="Sublevel1Map1" type="Node3D" groups=["Maps"]]
+script = ExtResource("1_6us8q")
+metadata/_custom_type_script = "uid://uciyqayv7scx"

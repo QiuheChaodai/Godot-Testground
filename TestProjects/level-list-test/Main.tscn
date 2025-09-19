@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3v8llpncfhpe"]
+
+[ext_resource type="PackedScene" uid="uid://cusyyvgbdbo6j" path="res://UI/Scenes/DevUI.tscn" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://yj64lrjw2xl0" path="res://main.gd" id="1_uu6xs"]
+
+[node name="Node3D" type="Node3D" groups=["Maps"]]
+script = ExtResource("1_uu6xs")
+
+[node name="DevUi" parent="." instance=ExtResource("1_glv2v")]
+
+[connection signal="createNewSublevel" from="DevUi" to="." method="_on_dev_ui_create_new_sublevel"]
