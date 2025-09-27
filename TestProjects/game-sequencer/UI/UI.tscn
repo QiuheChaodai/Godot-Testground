@@ -1,0 +1,59 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvbfvb4q1d847"]
+
+[ext_resource type="Script" uid="uid://g3u0bupo361r" path="res://UI/ui.gd" id="1_6dd3c"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6dd3c")
+
+[node name="CreateGSData" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.051000003
+anchor_bottom = 0.051000003
+offset_left = 39.0
+offset_top = -39.04001
+offset_right = 291.67203
+offset_bottom = 39.92
+text = "Create GS Data"
+
+[node name="SaveGSData" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.171
+anchor_bottom = 0.171
+offset_left = 39.0
+offset_top = -39.040024
+offset_right = 291.0
+offset_bottom = 38.319992
+text = "Save GS Data"
+
+[node name="ShowGSData_Runtime" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.29500002
+anchor_bottom = 0.29500002
+offset_left = 41.0
+offset_top = -39.600006
+offset_right = 293.67203
+offset_bottom = 39.360016
+text = "Show runtime GS Data
+"
+
+[node name="LoadMapNode" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1466.0
+offset_top = 42.0
+offset_right = 1865.0
+offset_bottom = 180.0
+text = "Load Next Map"
+
+[connection signal="pressed" from="CreateGSData" to="." method="_on_create_gs_data_pressed"]
+[connection signal="pressed" from="SaveGSData" to="." method="_on_save_gs_data_pressed"]
+[connection signal="pressed" from="ShowGSData_Runtime" to="." method="_on_show_gs_data_runtime_pressed"]
+[connection signal="pressed" from="LoadMapNode" to="." method="_on_load_map_node_pressed"]

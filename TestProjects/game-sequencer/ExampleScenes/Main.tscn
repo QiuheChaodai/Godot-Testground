@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://derjavi4gared"]
+
+[ext_resource type="PackedScene" uid="uid://cvvcje5ojx0ei" path="res://_DEVTOOL/DEVTOOL.tscn" id="1_8wqux"]
+[ext_resource type="PackedScene" uid="uid://crf1hfmq127kl" path="res://GameSequencer/GameSequencer.tscn" id="2_8ldnu"]
+[ext_resource type="PackedScene" uid="uid://dvbfvb4q1d847" path="res://UI/UI.tscn" id="3_4rt2c"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Devtool" parent="." instance=ExtResource("1_8wqux")]
+
+[node name="GameSequencer" parent="." instance=ExtResource("2_8ldnu")]
+
+[node name="UI" parent="." instance=ExtResource("3_4rt2c")]
+
+[connection signal="makeGSData" from="Devtool" to="GameSequencer" method="_on_devtool_make_gs_data"]
+[connection signal="loadMap" from="UI" to="Devtool" method="_on_ui_load_map"]
+[connection signal="toCreateGSData" from="UI" to="Devtool" method="_on_ui_to_create_gs_data"]
+[connection signal="toSaveGSData" from="UI" to="Devtool" method="_on_ui_to_save_gs_data"]
+[connection signal="toShowGSDataRuntime" from="UI" to="Devtool" method="_on_ui_to_show_gs_data_runtime"]

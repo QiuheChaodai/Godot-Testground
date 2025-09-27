@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvvcje5ojx0ei"]
+
+[ext_resource type="Script" uid="uid://dy2nh1lxyhd7a" path="res://_DEVTOOL/devtool.gd" id="1_130sm"]
+
+[node name="Devtool" type="Node"]
+script = ExtResource("1_130sm")

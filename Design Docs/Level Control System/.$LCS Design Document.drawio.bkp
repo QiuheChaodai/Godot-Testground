@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="GyHg8DTybYWAEd-vYyBW">
+    <mxGraphModel dx="2022" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k9mXl6RYws9MfLMmOEho-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;Level-Control System, or LCS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="980" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k9mXl6RYws9MfLMmOEho-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Node Tree&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k9mXl6RYws9MfLMmOEho-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Node: GameSequence&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9mXl6RYws9MfLMmOEho-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Nodes: Level&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9mXl6RYws9MfLMmOEho-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Level&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9mXl6RYws9MfLMmOEho-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Level&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9mXl6RYws9MfLMmOEho-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Level&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9mXl6RYws9MfLMmOEho-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Level&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
